@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.falldown
+{
+     
+    transition-property: background, border-radius, margin,padding,top;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+}
+.falldown:hover
+{
+     background: #ff7b29;
+    border-radius: 10%;
+    /*margin-top:1000px;
+    padding-top:123px;*/
+    top:150px;
+}

@@ -1,0 +1,19 @@
+﻿.kite-css {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 50px solid red;
+  top: -40px;
+  position: relative;
+}
+.kite-css:after {
+  content: '';
+  position: absolute;
+  left: -50px; 
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 90px solid red;
+  z-index: -1
+}
